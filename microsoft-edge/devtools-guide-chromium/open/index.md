@@ -37,9 +37,27 @@ To open DevTools, use either of the following options.
 
 For more information, navigate to [Microsoft Edge DevTools keyboard shortcuts][DevtoolsShortcutsIndex].  
 
+
+## temporary test section for resolution test
+
+1st machine, possibly fullscreen laptop:
+
 :::image type="complex" source="../media/bing-customize-more-tools-developer-tools-transparent.msft.png" alt-text="Open DevTools from the Microsoft Edge main menu" lightbox="../media/bing-customize-more-tools-developer-tools-transparent.msft.png":::
    Open DevTools from the Microsoft Edge main menu  
 :::image-end:::  
+
+2nd machine, fullscreen laptop:
+
+:::image type="complex" source="../media/docs-hub-customize-more-tools-developer-tools-transparent.msft.png" alt-text="Open DevTools from the Microsoft Edge main menu" lightbox="../media/docs-hub-customize-more-tools-developer-tools-transparent.msft.png":::
+   Open DevTools from the Microsoft Edge main menu  
+:::image-end:::  
+
+2nd machine, manually drag and size browser to 1100x700 at browsersize.com:
+
+:::image type="complex" source="../media/resolution-test-size-browser-to-1100-700.png" alt-text="Open DevTools from the Microsoft Edge main menu" lightbox="../media/resolution-test-size-browser-to-1100-700.png":::
+   Open DevTools from the Microsoft Edge main menu  
+:::image-end:::  
+
 
 ## Open the Elements panel to inspect the DOM or CSS  
 
