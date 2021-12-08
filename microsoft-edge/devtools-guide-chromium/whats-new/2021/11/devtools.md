@@ -29,21 +29,17 @@ Starting with Microsoft Edge version 96, the experiment's checkbox is labeled **
 
 This UI is still in development and may change in future versions of Microsoft Edge.  We're eager to hear your feedback about this new DevTools UI.  Send us your feedback by tweeting [@EdgeDevTools](https://twitter.com/edgedevtools).  Or, with the **Focus Mode** experiment turned on, at the bottom of the **Activity Bar**, select **Help** (![the Help icon in the Activity Bar in Focus Mode](../../../media/help-icon-of-focus-mode.png)) > **Feedback**, to show the **Send feedback** window.
 
-Screenshot version 1, default border:
+Triple-colon-tagged, border by default:
 
 :::image type="content" source="../../media/2021/11/focus-mode.png" alt-text="Focus Mode, including the Activity Bar.":::
 
-Screenshot version 2, default border:
-
-:::image type="content" source="../../media/2021/11/focus-mode-2.png" alt-text="Focus Mode, including the Activity Bar.":::
-
-Screenshot version 1, no border:
+Triple-colon-tagged, border turned off:
 
 :::image type="content" source="../../media/2021/11/focus-mode.png" alt-text="Focus Mode, including the Activity Bar." border="false":::
 
-Screenshot version 2, no border:
+Markdown-tagged:
 
-:::image type="content" source="../../media/2021/11/focus-mode-2.png" alt-text="Focus Mode, including the Activity Bar." border="false":::
+![Focus Mode, including the Activity Bar.](../../media/2021/11/focus-mode.png)
 
 See also:
 *  [Focus Mode](../../../experimental-features/index.md#focus-mode) in _Experimental features_.
