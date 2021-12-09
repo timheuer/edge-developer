@@ -41,6 +41,10 @@ Markdown-tagged:
 
 ![Focus Mode, including the Activity Bar.](../../media/2021/11/focus-mode.png)
 
+Markdown-tagged, attempting transparent canvas for transparent corners in Paint 3D:
+
+![Focus Mode, including the Activity Bar.](../../media/2021/11/focus-mode-transparent-corners.png)
+
 See also:
 *  [Focus Mode](../../../experimental-features/index.md#focus-mode) in _Experimental features_.
 *  [DevTools: Focus Mode UI](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/DevTools/FocusMode/explainer.md) in the `MSEdgeExplainers` repo.
