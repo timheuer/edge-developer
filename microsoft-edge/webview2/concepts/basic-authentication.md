@@ -134,6 +134,9 @@ For more realistic code, see the subsequent section.
 
 # [C++](#tab/cpp)
 
+:::code language="cpp" source="../code/SampleApps/WebView2APISample/ScenarioAuthentication.cpp" range="50-69":::
+
+<!--
 ```cpp
 // Prerequisite: Before using this code, make sure you read the section "Use HTTPS 
 // for sending credentials" in this article.
@@ -160,6 +163,7 @@ else
    FeatureNotAvailable();
 }
 ```
+-->
 
 **APIs:**
 
