@@ -111,19 +111,11 @@ For more realistic code, see the subsequent section.
 
 <!-- ------------------------------ -->
 
+Prerequisite: Before using this code, make sure you read the section "Use HTTPS for sending credentials" in this article.
+
 # [C#](#tab/csharp)
 
-```csharp
-// Prerequisite: Before using this code, make sure you read the section "Use HTTPS 
-// for sending credentials" in this article.
-    webView.CoreWebView2.BasicAuthenticationRequested += delegate (
-       object sender, 
-       CoreWebView2BasicAuthenticationRequestedEventArgs args)
-    {
-        args.Response.UserName = "user";
-        args.Response.Password = "pass";
-    };
-```
+:::code language="csharp" source="../code/SampleApps/WebView2WpfBrowser/MainWindow.xaml.cs" id="BasicAuthenticationRequested":::
 
 **APIs:**
 
@@ -135,35 +127,6 @@ For more realistic code, see the subsequent section.
 # [C++](#tab/cpp)
 
 :::code language="cpp" source="../code/SampleApps/WebView2APISample/ScenarioAuthentication.cpp" range="50-69":::
-
-<!--
-```cpp
-// Prerequisite: Before using this code, make sure you read the section "Use HTTPS 
-// for sending credentials" in this article.
-if (auto webView10 = m_webView.try_query<ICoreWebView2_10>())
-{
-   CHECK_FAILURE(webView10->add_BasicAuthenticationRequested(
-      Callback<ICoreWebView2BasicAuthenticationRequestedEventHandler>(
-            [this](
-               ICoreWebView2* sender,
-               ICoreWebView2BasicAuthenticationRequestedEventArgs* args)
-            {
-               wil::com_ptr<ICoreWebView2BasicAuthenticationResponse> basicAuthenticationResponse;
-               CHECK_FAILURE(args->get_Response(&basicAuthenticationResponse));
-               CHECK_FAILURE(basicAuthenticationResponse->put_UserName(L"user"));
-               CHECK_FAILURE(basicAuthenticationResponse->put_Password(L"pass"));
-
-               return S_OK;
-            })
-            .Get(),
-      &m_basicAuthenticationRequestedToken));
-}
-else
-{
-   FeatureNotAvailable();
-}
-```
--->
 
 **APIs:**
 
